@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#070707;
+}
+a{
+    text-decoration: none;
+    color:#6e6864;
+}
+a:hover{
+    
+    color:#9d9f9f;
+}
+/* ########### HEADER ################### */
+header{
+    height: 5em;
+    border-bottom: 2px solid #6e6864;
+    color:#6e6864;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-transform: uppercase;
+}
+header div{
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+#logo_login p{
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    line-height: .5em;
+    margin-right: 1em;
+}
+#logo_login a{
+    text-decoration: none;
+    color: #6e6864;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 2em; 
+    right: 2em; 
+}
+li{
+    display: inline;
+    margin: 2em 2em; 
+}
+/* ########### MAIN ################### */
+/* ########### SECTION ################### */
+
+main{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 30%;
+    text-align: left;
+    margin-top: 20vh;
+    margin-left: 15vh;
+}
+
+h1{
+    color: #fff;
+    font-size: 3em;
+}
+#subheading{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 10vh;
+}
+section img{
+    height:30px;
+    width: 120px;
+}
+section p{
+    color:#ac8059;
+    font-weight: bold;
+
+}
+/* ########### MAIN ################### */
+/* ########### ASIDE ################### */
+aside{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12vh;
+}
+aside img{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+}
+/* ########### FOOTER ################### */
+footer{
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    margin-left: 4em;
+}
+.socialMedia{
+    height: 2em;
+    width: 2em;
+}
+footer div p{
+    color: #d1c2a9;
+    border: 1px solid #ac8059;
+    border-radius: 50%;
+    padding: .5em;
+    display: inline;
+}
